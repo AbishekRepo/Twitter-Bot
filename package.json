@@ -1,0 +1,21 @@
+{
+  "name": "twitterproject",
+  "version": "1.0.0",
+  "description": "This my Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index",
+    "dev": "nodemon server/index"
+  },
+  "author": "UdayKumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "needle": "^3.2.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
